@@ -1,4 +1,4 @@
-```markdown
+
 # Face Swapper using InsightFace
 
 This repository contains code for a real-time face swapping application using the InsightFace library. It allows you to swap faces in live video streams captured from a camera.
@@ -15,7 +15,6 @@ This repository contains code for a real-time face swapping application using th
 
    ```bash
    git clone https://github.com/Dat28060596/Face_swapper
-```
    ```
 
 2. Install the required Python packages:
