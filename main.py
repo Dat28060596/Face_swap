@@ -15,7 +15,7 @@ app.prepare(ctx_id=0, det_size=(640, 640))
 swapper = insightface.model_zoo.get_model('inswapper_128.onnx')   # https://drive.google.com/file/d/1krOLgjW2tAPaqV-Bw4YALz0xT5zlb5HF/view
 
 # Load the face image to swap
-face_want_to_swap = cv2.imread(r"C:\Users\Admin\PycharmProjects\Swap_face\amber-heard-4k-2018-l4-3840x2400.jpg")
+face_want_to_swap = cv2.imread(r"YOUR_IMAGE_PATH")
 # Get source face from the image to swap
 swap_face = app.get(face_want_to_swap)
 source_face = swap_face[0]
