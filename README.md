@@ -54,6 +54,3 @@ This project is built using the [InsightFace](https://github.com/deepinsight/ins
 [MIT License](LICENSE)
 
 Feel free to use and modify this code according to your needs.
-```
-
-Make sure to replace `"https://github.com/your-username/your-repo.git"` with the actual URL of your GitHub repository. You may also need to customize the usage instructions and configuration options based on your specific implementation details.
