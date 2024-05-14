@@ -27,10 +27,10 @@ This repository contains code for a real-time face swapping application using th
 
 1. Connect your camera to your computer.
 
-2. Run the `swap_faces.py` script:
+2. Modify and run the `main.py` script:
 
    ```bash
-   python swap_faces.py
+   python main.py
    ```
 
 3. Press 'q' to exit the application.
