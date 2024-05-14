@@ -1,5 +1,3 @@
-Certainly! Here's a basic README.md file for your GitHub repository:
-
 ```markdown
 # Face Swapper using InsightFace
 
