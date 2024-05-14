@@ -7,7 +7,7 @@ This repository contains code for a real-time face swapping application using th
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3.9
 - OpenCV (cv2)
 - InsightFace (Python library for face analysis)
 
