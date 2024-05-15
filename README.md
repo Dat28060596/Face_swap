@@ -14,7 +14,7 @@ This repository contains code for a real-time face swapping application using th
 1. Clone the repository:
 
    
-   git clone https://github.com/Dat28060596/Face_swapper
+   git clone https://github.com/Dat28060596/Face_swapper.git
    
 
 2. Install the required Python packages:
