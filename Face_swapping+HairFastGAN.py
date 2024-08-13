@@ -20,7 +20,7 @@ app.prepare(ctx_id=0, det_size=(640, 640))  # ctx_id=0 ensures GPU usage if avai
 swapper = insightface.model_zoo.get_model('inswapper_128.onnx')
 
 # Load the face image to swap
-face_want_to_swap = cv2.imread(r"C:\Users\Admin\OneDrive\Pictures\Screenshots\Screenshot 2024-07-12 172841.png")
+face_want_to_swap = cv2.imread("image.png")
 swap_face = app.get(face_want_to_swap)
 source_face = swap_face[0]
 
