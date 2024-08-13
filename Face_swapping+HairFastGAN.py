@@ -53,9 +53,9 @@ while True:
 
     # Step 2: Perform hair swapping
     input_dir = Path("/content/HairFastGAN/input")
-    face_path = input_dir / 'Messenger_creation_102de7de-7712-4c4e-918f-44cf6e39101f.jpeg'
-    shape_path = input_dir / 'Messenger_creation_e7d3c951-dda3-41eb-85fc-8387c86ed47f.jpeg'
-    color_path = input_dir / 'Messenger_creation_e7d3c951-dda3-41eb-85fc-8387c86ed47f.jpeg'
+    face_path = input_dir / 'face.png'
+    shape_path = input_dir / 'hair_style.png'
+    color_path = input_dir / 'color.png'
 
     # Move paths to the GPU if applicable
     face_path = face_path.to(device)
